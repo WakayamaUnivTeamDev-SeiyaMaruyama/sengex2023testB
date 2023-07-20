@@ -1,0 +1,19 @@
+<html lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <h1>レビュー：<span id="subject"/></h1>
+    <form action="EditReviewCtrl.php?method=new" method="POST" >
+      <textarea name="text">
+      </textarea>
+      <input type="hidden" name="id" />
+      <div>
+	<input type="submit" value="new"/>
+	<input type="submit" value="edit" formaction="EditReviewCtrl.php?method=edit"/>
+	<input type="submit" value="save" formaction="EditReviewCtrl.php?method=save"/>
+	<input type="submit" value="cancel" formaction="EditReviewCtrl.php?method=cancel"/>
+      </div>
+    </form>
+  </body>
+</html>

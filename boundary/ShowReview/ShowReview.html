@@ -1,0 +1,16 @@
+<html lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="common.css"/>
+    <title>レビュー表示画面</title>
+  </head>
+  <body>
+    <h1>レビュー：<span id="subject" /></h1>
+    <div id="text"></div>
+    <form action="ShowReviewCtrl.php?method=edit" method="POST" >
+      <input type="hidden" name="id"/>
+      <input type="submit" value="閉じる" formaction="ShowReviewCtrl.php?method=close"/>
+      <input type="submit" value="編集"/>
+    </form>
+  </body>
+</html>

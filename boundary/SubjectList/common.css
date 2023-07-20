@@ -1,0 +1,37 @@
+body {
+	padding: 1ex;
+}
+
+h1 {
+	font-size: 150%;
+}
+
+#subjects {
+	width: 95%;
+	height: 15ex;
+	border: 2px solid blue;
+	font-size: 120%;
+	margin-top: -1ex;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+
+.mark {
+	color: red;
+	font-size: 80%;
+}
+
+form {
+	text-align: center;
+}
+
+input {
+	margin: 1ex;
+	background-color: blue;
+	color: white;
+	font-size: 120%;
+	min-width: 4em;
+}

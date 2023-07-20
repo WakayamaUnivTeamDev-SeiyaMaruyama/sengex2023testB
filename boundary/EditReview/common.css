@@ -1,0 +1,27 @@
+body {
+	padding: 1ex;
+}
+
+h1 {
+	font-size: 150%;
+	margin-bottom: 0ex;
+}
+
+form {
+	text-align: center;
+}
+
+textarea {
+	width: 95%;
+	height: 15ex;
+	border: 2px solid blue;
+	font-size: 110%;
+}
+
+input {
+	margin: 1ex;
+	background-color: blue;
+	color: white;
+	font-size: 120%;
+	min-width: 4em;
+}
