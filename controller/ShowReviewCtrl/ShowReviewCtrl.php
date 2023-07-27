@@ -26,7 +26,7 @@ class ShowReviewCtrl {
   public function close() {
     $slc = new SubjectListCtrl();
     $slc->showList();
-  }	
+  }
 }
 
 header("Content-Type: text/html; charset=utf-8");
